@@ -32,8 +32,7 @@ class StdOutListener(StreamListener):
             # Also, we convert UTF-8 to ASCII ignoring all bad characters sent by users
             string = decoded['entities']['media'][0]['media_url']
             path = 'imgs/'+decoded['user']['screen_name']+'_'+decoded['id_str']+'.jpg'
-            if decoded['user']['screen_name'] == 'rocket_adeleia':
-                path = 'imgs/pekku/'+decoded['user']['screen_name']+'_'+decoded['id_str']+'.jpg'
+            
             # Save the file
             img = urllib.request.urlopen(string)
             localFile = open(path, 'wb')
