@@ -8,13 +8,13 @@ import urllib.request
 
 # Go to http://apps.twitter.com and create an app.
 # The consumer key and secret will be generated for you after
-consumer_key="ZErwpxZ83whbL39OGNgXZ29xE"
-consumer_secret="TY1ATX7BccVYbbdEFw9O7AGTLyLcOzP7FTRF2AGOTNDyy34lx3"
+consumer_key="YOUR_COSTUMER_KEY_HERE"
+consumer_secret="YOUR_COSTUMER_SECRET_KEY_HERE"
 
 # After the step above, you will be redirected to your app's page.
 # Create an access token under the the "Your access token" section
-access_token="3344870459-mFA9YOe5aXL1IiCAoqDfnCcQG6IQIduJcDadQat"
-access_token_secret="9OzcCnquWYChI3TnPWW9tZVEKwSI2ciST2X92inzNSPBm"
+access_token="YOUR_ACCESS_TOKEN_HERE"
+access_token_secret="YOUR_SECRET_ACCESS_TOKEN_HERE"
 
 #Array Hashtags
 HT_ARRAY=['']
